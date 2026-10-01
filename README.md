@@ -42,9 +42,9 @@ Três regressores (Regressão Linear, Random Forest Regressor, Decision Tree Reg
 
 O **Random Forest Regressor** teve o melhor desempenho (R² 0,846). A diferença grande em relação à Regressão Linear (R² 0,360) indica que a relação entre a hora do dia e a radiação não é linear (a radiação sobe e desce em arco ao longo do dia). Estimar radiação solar (W/m²) não equivale a prever geração elétrica: faltam variáveis como área e eficiência dos painéis, ângulo de instalação, perda de eficiência por temperatura do módulo e perdas do inversor.
 
-### Parte complementar — Orange Data Mining
+## Parte complementar — Orange Data Mining
 
-Fluxos de classificação e regressão equivalentes aos do notebook, usando o workflow `Fluxos_para_Classificacao_e_Regressao.ows` sobre os mesmos dois CSVs.
+Fluxos de classificação e regressão equivalentes aos do notebook, usando o workflow `Fluxos_para_Classificacao_e_Regressao.ows` sobre os mesmos dois CSVs. Análise completa com prints dos resultados em [`Orange_Analise.md`](./Orange_Analise.md).
 
 ## Integrantes
 
